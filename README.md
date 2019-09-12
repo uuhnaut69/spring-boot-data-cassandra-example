@@ -33,5 +33,3 @@ Ideal Cassandra Use Cases:
     - Telematics: IOT for cars and trucks.
     - Email envelopes—not the contents.
     
-# Reference 
-https://blog.pythian.com/cassandra-use-cases/
