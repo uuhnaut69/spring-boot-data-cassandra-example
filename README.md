@@ -33,3 +33,17 @@ Ideal Cassandra Use Cases:
     - Telematics: IOT for cars and trucks.
     - Email envelopes—not the contents.
     
+# spring boot data cassandra example
+
+create keyspace 
+
+```
+create keyspace testcass with replication={'class':'SimpleStrategy', 'replication_factor':1}
+
+CREATE TABLE customer(
+   id timeuuid PRIMARY KEY,
+   name text,
+   age int,
+   active boolean
+);
+```
