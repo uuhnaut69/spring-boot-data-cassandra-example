@@ -27,8 +27,8 @@ public class CustomerService {
 		return customerRepository.save(req);
 	}
 
-	public List<Customer> getCustomerByStatus(boolean active) {
-		return customerRepository.findByCustomerActive(active);
+	public List<Customer> getCustomerByStatus(boolean isactive) {
+		return customerRepository.findByCustomerActive(isactive);
 	}
 
 	public List<Customer> getByAge(int age) {
