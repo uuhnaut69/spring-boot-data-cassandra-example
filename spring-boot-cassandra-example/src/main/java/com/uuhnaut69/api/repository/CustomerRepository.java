@@ -1,13 +1,12 @@
-package com.uuhnaut69.api.repositories;
+package com.uuhnaut69.api.repository;
 
-import java.util.List;
-import java.util.UUID;
-
+import com.uuhnaut69.api.model.Customer;
 import org.springframework.data.cassandra.repository.CassandraRepository;
 import org.springframework.data.cassandra.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import com.uuhnaut69.api.entities.Customer;
+import java.util.List;
+import java.util.UUID;
 
 /**
  * @author uuhnaut
